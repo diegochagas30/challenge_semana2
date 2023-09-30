@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte_principal';
+    src: url(assets/fontes/static/Inter-Regular.ttf) format('opentype');
+}
+
+body{
+    padding: 100px;
+    font-family:  'fonte_principal', Arial, Helvetica, sans-serif;;
+}
+
+header{
+    width: 1000px; /*ajuste isso*/
+    margin:auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#logo {
+    margin-right: auto;
+}
+
+nav > a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+
+nav > a:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+main{
+    display: flex;
+    width: 1000px; /*ajuste isso*/
+    margin: auto;
+}
+
+h1, h2{
+    font-weight: bolder;
+}
+
+#h1_div_left{
+    font-size: 3em;
+}
+p{
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+}
+
+
+#div_right{
+    text-align: justify;
+    padding: 5px 15px 15px 15px;
+    font-size: 0.9em;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#h1_div_right{
+    color: hsl(35, 77%, 62%);
+}
+.div_right_link{
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+}
+
+.div_right_link:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+#div_left{
+    height: 420px;
+    margin-right: 40px;
+
+}
+
+#div_flex{
+    display: flex;
+    flex-direction: row;
+}
+
+#d1{
+    /*flex: 1;*/
+    width: 50%;
+}
+
+#d2{
+    /*flex: 1;*/
+    width: 50%;
+    
+}
+
+#read_more{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-top: 80px;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+}
+
+#read_more:hover{
+    background-color: black;
+}
+
+footer{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+#d1_footer, #d2_footer, #d3_footer{
+    height: 154px;
+    flex: 1;
+    display: flex;
+}
+
+.div_interna1{
+    width: 100px;
+}
+
+.div_interna2{
+    font-size: 0.75em;
+    padding-left: 2px;
+    
+}
+
+.footer_link{
+    text-decoration: none;
+    color: black;
+}
+
+.footer_link:hover{
+
+    color: hsl(35, 77%, 62%);
+}
+
+.h1_footer{
+    color: hsl(236, 13%, 42%);
+}
+
+
+/*diminui 100px em cada dimensão das imagens do footer*/
