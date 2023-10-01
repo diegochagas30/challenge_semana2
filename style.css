@@ -13,7 +13,7 @@ body{
 header{
     width: 1000px; 
     margin:auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -41,8 +41,9 @@ main{
 
 
 #h1_div_left{
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: 800;
+    margin-top: 10px;
 }
 
 p{
@@ -50,7 +51,6 @@ p{
     font-size: 15px;
     font-weight: 400;
 }
-
 
 #div_right{
     text-align: justify;
@@ -90,7 +90,6 @@ p{
 
 #d2{
     width: 50%;
-    
 }
 
 #read_more{
@@ -110,24 +109,15 @@ p{
 footer{
     width: 1000px;
     margin: auto;
-    margin-top: 50px;
-    display: flex;
+    margin-top: 70px;
+    display:grid;
+    grid-template-columns: 100px auto 100px auto 100px auto;
+    grid-template-rows: 127px;
 }
 
-#d1_footer, #d2_footer, #d3_footer{
-    height: 154px;
-    flex: 1;
-    display: flex;
-}
-
-.div_interna1{
-    width: 100px;
-}
-
-.div_interna2{
+.coluna_2{
     font-size: 0.75em;
-    padding-left: 2px;
-    
+    padding-left: 10px;
 }
 
 .footer_link{
@@ -141,9 +131,9 @@ footer{
 }
 
 .h1_footer{
+    margin-top: 0px;
     color: hsl(236, 13%, 42%);
     font-weight: 700;
 }
 
-
-/*diminui 100px em cada dimensão das imagens do footer*/
+/*dividi por 2 cada dimensão das imagens do footer (tamanho original: 200x254; tamanho reduzido: 100x127)*/
